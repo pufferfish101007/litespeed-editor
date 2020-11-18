@@ -1,0 +1,21 @@
+html, body {
+  height: 100%;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.loading-text {
+  text-align: center;
+}
+
+.loading-text-leave-active {
+  transition: all .8s cubic-bezier(1.0, 0.5, 0.8, 1.0);
+}
+.loading-text-leave-to
+/* .slide-fade-leave-active below version 2.1.8 */ {
+  transform: translateY(10px);
+  opacity: 0;
+}
